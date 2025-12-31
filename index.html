@@ -42,20 +42,19 @@
             return;
         }
 
-
         try {
             const apiUrl =
               `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
             const response = await fetch(apiUrl);
 
-            
+
             if (!response.ok) {
                 showError("City not found, check once");
                 return;
             }
 
-            
+
             window.location.href = "weather.html?city=" + city;
 
         } catch (error) {
