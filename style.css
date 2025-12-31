@@ -119,7 +119,7 @@
 }
 
 body {
-    background: url("https://www.hdwallpapers.in/download/aerial_view_of_clouds_under_light_blue_sky_4k_hd_light_blue-3840x2160.jpg") no-repeat center center fixed;
+    background: url("https://images.pexels.com/photos/18780416/pexels-photo-18780416.jpeg") no-repeat center center fixed;
     background-size: cover;
 }
 .top-error {
@@ -150,3 +150,4 @@ body {
     font-weight: 500;
     color: #333;
 }
+
